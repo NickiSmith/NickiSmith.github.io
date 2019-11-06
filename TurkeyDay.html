@@ -1,0 +1,50 @@
+<!-- d3 lab GEOG 575 Nicki Smith 2019 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Nicki Smith">
+
+  <title>d3 Demo</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
+
+  <!-- Custom style sheet -->
+    
+    <link href="css/styleTD.css" rel="stylesheet" type="text/css">
+
+</head>
+
+ <body>
+     <div id="title"><p>Where are</p><h1> <strong>Thanksgiving</strong></h1><p>vegetables grown in the <strong>United States</strong>?</p></div>
+     
+     <div id="farm"><img src="lib/farm.png" height="300"></div>
+
+    <!-- Scripts -->
+
+     <!-- topojson to geojson script -->
+     <script type="text/javascript" src="lib/topojson/topojson.min.js"></script>
+
+    <!-- d3 queue -->
+     <script type="text/javascript" src="lib/d3-queue/d3-queue.js"></script>
+
+     <!-- simple-statistcs (for natural breaks classification) -->
+     <script type="text/javascript" src="lib/simple-statistics.min.js"></script>
+
+     <!-- d3 js -->
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/d3js/4.13.0/d3.min.js"></script>
+
+     <!-- main js file -->
+     <script type='text/javascript' src="js/mainTD.js"></script>
+
+     <div id="source"><p><strong>Data Source | USDA 2017 Census of Agriculture</strong><br><strong>Cartographic Boundaries | Natural Earth </strong><br>
+         Values rounded to nearest acre<br>Undisclosed values represented as zero<br>
+         Apologies to Alaska and Hawaii</p></div>
+
+</body>
+
+</html>
