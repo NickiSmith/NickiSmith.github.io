@@ -4,7 +4,7 @@
     var expressed = attrArray[0]; //initial attribute
     
     //chart frame dimensions
-    var chartWidth = 550,
+    var chartWidth = 475,
         chartHeight = 500,
         leftPadding = 50,
         rightPadding = 2,
@@ -389,7 +389,7 @@ window.onload = setMap();
     //function to create dynamic label
     function setLabel(props){
         //label content
-        var labelAttribute = "<h1>" + props[expressed] + "</h1><b>" + expressed + "</b>";
+        var labelAttribute = "<h1>" + props[expressed] + "</h1><b>" + "acres of " +expressed + "</b>";
 
         //create info label div
         var infolabel = d3.select("body")
