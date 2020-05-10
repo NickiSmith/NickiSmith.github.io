@@ -1,0 +1,280 @@
+/*-----------------------------------//
+Style sheet for
+Laura Smith and Nicki Smith
+GEOG 575 Fall 2019
+Final Project - Sable Island Seals
+//----------------------------------*/
+
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #f8f9fa;
+    height: 100%
+}
+
+#header {
+    background-color: #49556f;
+    color: snow;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+#title {
+    font-family: 'Satisfy', cursive;
+}
+
+/*-- links --*/
+.link {
+    color: #8BA5D9;
+}
+
+.link:visited {
+  color: #8BA5D9;
+}
+
+.link:hover {
+  color: #F2C8C4;
+}
+
+.caption {
+    height: 70px;
+    color: #49556f;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.caption2 {
+    height: 50px;
+    color: #49556f;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: auto;
+}
+
+#authors {
+    font-size: 1.5em;
+}
+
+/*-- leaflet map --*/
+#mapid { 
+    height: 100%;
+    min-height: 500px;
+}
+
+.pane {
+    background-color: none;
+    fill: none;
+    stroke-width: 1.0px;
+    opacity: 1;
+}
+
+/*-- seal spotter pop-up --*/
+#spotterTitle {
+    color: #49556f;
+    font-family:'Satisfy', cursive;
+}
+
+#spotterText {
+    color: #49556f;
+    font-family:'Open Sans Condensed';
+    font-size: 1.5em;
+}
+
+/*--  dropdown for seal path info --*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  height: 450px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*--- carousel styling ---*/
+
+.carousel-inner {
+    margin-bottom: 20px;
+}
+
+.carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 100%;
+border: none;
+}
+
+/*-- locator div and svg map --*/
+#locator {
+    width: auto;
+    height: 225px;
+}
+
+svg{
+    background: white;
+} 
+
+.coasts {
+   fill: #D7D7D7;
+   stroke: aliceblue;    
+   stroke-width: 2px;
+}
+
+/* --- seal paths ---*/
+
+.F104 {
+    stroke: #F2C8C4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.F532 {
+    stroke: #8BA5D9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.K88 {
+    stroke: #7b9cba;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.S0749 {
+    stroke: #3f638a;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.S0758 {
+    stroke: #BFA3B2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/*---- animation button styling --*/
+
+.animate {
+    border-radius: 50%;
+    background-color: none;
+    display: block;
+    height: 75px;
+    width: 75px;
+    padding: 0 0;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: none;
+    }
+
+.buttonIMG {
+    height:75px;
+    width: 75px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.buttonIMG:hover {
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.7), 0 5px 3px 0 rgba(73, 85, 111, 0.8), 0 5px 3px 0 rgba(73, 85, 111, 0.1); 
+}
+
+#allSeals{
+    width: 75px;
+    height: 75px;
+    background-color: #8A7E98;
+    color: white;
+    font-size: 22px;
+}
+
+#allSeals:hover {
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 1.5px 1.5px 0 rgba(255, 255, 255, 0.7), 0 5px 3px 0 rgba(73, 85, 111, 0.8), 0 5px 3px 0 rgba(73, 85, 111, 0.1); 
+}
+
+#buttonHeader {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #49556f;
+}
+
+
+/* ----- CSS from Flex----- */
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.footer {
+    background: #49556f;
+    color: #f8f9fa;
+    font-size: 1.5em;   
+}
+
+/* centered pane or to the left or right if single aside */
+.main {
+  text-align: left;
+  background: none;
+}
+
+/* places an aside on the left*/
+.aside-1 {
+  background: #f8f9fa;
+}
+
+/* places an aside on the right */
+.aside-2 {
+  background: #f8f9fa;
+  max-width: 150px;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+
+/*-----------------------------------------
+*Resources*
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
+
+Color Palette
+lavender: #BFA3B2;
+cornflower blue: #8BA5D9;
+grey blue: #7b9cba;
+dark blue: #3f638a;
+pink: #F2C8C4;
+Medium blue: #49556f
+
+https://color.adobe.com/search?q=ice%20sea&page=3
+https://stock.adobe.com/50744246/
+
+*/-----------------------------------------
