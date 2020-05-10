@@ -28,7 +28,7 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Nicki Smith | Cartography</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,14 +56,42 @@
 
     <!-- Page Content -->
 
-  <div class="container">
-      <div class="container" id="splash"><img id="birdsplash" src="css/birds.svg" alt="flock of birds flying"></div>
+  <div class="container-fluid" id="splashpage">
+      <img id="birdsplash" src="img/birds3-03.svg" alt="flock of birds flying">
+<!--      <div class="container" id="splash"><img id="birdsplash" src="css/birds.svg" alt="flock of birds flying"></div>-->
 <!--      <div class="container" id="birds"></div>-->
 
+<!--
+        <svg id="block" width="600" height="110">
+            <rect width="500" height="100" style="fill:rgb(255, 0, 128);stroke-width:0;stroke:rgb(0,0,0)" />
+        </svg>
+-->
     <header class="jumbotron my-4" id="intro">
+
       <h1 class="display-3" id="hi">Hi, I'm Nicki.</h1>
-      <p class="lead">I make maps. You can see some of my work here.</p>
+      <p id="subtitle" class="lead">I make maps. You can see some of my work here.</p>
     </header>
+      
+    </div> <!-- end of splash screen container-->
+    
+    <div class="container" id="workscontainer">
+        
+            <h1 id="worksheader">SELECTED</h1>
+            <h1 id="workssubheader">WORK</h1>
+        
+    </div>
+
+    <div class="container" id="works">
+        <a href="birdwatching.html"><p class="workslink">bird in the place where you live</p></a>
+        <a href="bikeroute.html"><p class="workslink">sea to cascades bike race</p></a>
+        <a href="TurkeyDay.html"><p class="workslink">growing thanksgiving crops</p></a>
+        <a href="seals.html"><p class="workslink">sable island seals</p></a>
+<!--        <img id="worksimg" src="img/greySeal2.jpg" alt="seal pic">-->
+    
+    </div> <!-- end of works container -->
+    
+<!--
+    <div class="container">
 
     <div class="row text-center">
 
@@ -116,14 +144,16 @@
       </div>
         
     </div>
+    </div>
+-->
       
-    <header class="jumbotron my-4" id = "about" >
-      <h1 class="display-5">About</h1>
+    <header class="jumbotron my-4" id ="about" >
+      <h1 class="display-5" id="aboutheader">About</h1>
       <p class="lead">I grew up in the Pacific Northwest, but now call a small university town in North Georgia home. I spend most of my professional time making maps and wrangling data. The rest of my time is currently occupied with graduate studies in cartography, birdwatching, and kicking it with my dog. Want to nerd out on maps?  Feel free to send me an email or find me on twitter!</p>
     </header>
  
-    <header class="jumbotron my-4"  id = "contact">
-      <h1 class="display-5">Contact</h1>
+    <header class="jumbotron my-4"  id ="contact">
+      <h1 class="display-5" id="contactheader">Contact</h1>
         <p class="lead">jnsmith22@wisc.edu | <a/ href = https://twitter.com/nickismithmaps>@nickismithmaps</a></p>
     </header>
       

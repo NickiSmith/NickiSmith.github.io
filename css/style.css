@@ -4,35 +4,124 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-/*
-#birds {
-    display: block;
-}*/
-
-#birds {
-    background: url(birds2.svg);
-    background-size: contain;
-    height: 400px;
-    background-repeat: no-repeat;
-    z-index: -1;
-    position: absolute;
-    opacity: 0.1;
-}
-
 #intro {
     background: none;
-    color: darkgray;
+}
+
+#subtitle {
+    color: white;
+    font-size: 1.7em;
+    font-family: 'Rubik', sans-serif;
+}
+
+#splashpage {
+    color: #ffde22;
+    background: #ffde22;
+    width: 100%;
 }
 
 #hi{    
-/*    font-family: 'Comfortaa', cursive;*/
-/*    font-family: 'Roboto', sans-serif;*/
     font-family: 'Rubik', sans-serif;
-    color: #ffde22;
+    background: #FF0080;
+    max-width: 500px;
+    color: white;
+    
 }
 
-#splash{
-    min-height: 100px;
-    max-height: 350px;
+
+#birdsplash{
+/*    min-height: 100px;*/
+    margin-bottom: -12%;
     padding-bottom: 0px;
+    max-height: 600px;
 }
+
+.workslink {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 4vw;
+    
+    text-shadow:
+
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.workslink:hover {
+  color: #ffd810;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#worksheader {
+    font-family: 'Rubik', sans-serif;
+    color: #FF0080;
+    font-size: 4em;
+    
+}
+
+#workssubheader {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #FF0080,  
+         1px -1px 0 #FF0080,
+        -1px  1px 0 #FF0080,
+         1px  1px 0 #FF0080;
+}
+
+#workscontainer {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    padding-left: 0px;
+}
+
+#works {
+    padding-bottom: 50vh;
+}
+
+#about {
+    padding-bottom: 20vh;
+    background: url(birds4-03.svg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left;
+}
+
+#aboutheader {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #FF0080,  
+         1px -1px 0 #FF0080,
+        -1px  1px 0 #FF0080,
+         1px  1px 0 #FF0080;
+}
+
+#contactheader {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #FF0080,  
+         1px -1px 0 #FF0080,
+        -1px  1px 0 #FF0080,
+         1px  1px 0 #FF0080;
+}
+
+/*
+#block {
+ margin-left: 0; 
+padding-left: 0;
+    z-index: -1;
+}
+*/
