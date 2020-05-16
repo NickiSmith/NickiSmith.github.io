@@ -36,10 +36,17 @@ body {
     max-height: 600px;
 }
 
+#hoverimg{
+  background-image: url("birds4-03.svg");
+  background-repeat: no-repeat;
+/*  background-color: #cccccc;*/
+  background-size: contain;
+}
+
 .workslink {
     font-family: 'Rubik', sans-serif;
     color: white;
-    font-size: 4vw;
+    font-size: 3.5vw;
     
     text-shadow:
 
@@ -89,20 +96,20 @@ a:link {
 
 #about {
     padding-bottom: 20vh;
-    background: url(birds4-03.svg);
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top left;
+/*    background: url(birds4-03.svg);*/
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
 }
 
 #contact {
 /*    padding-bottom: 20vh;*/
-    background: url(birds4-03.svg);
+/*    background: url(birds4-03.svg);*/
 /*  height: 50vh;*/
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
 }
 
 #aboutheader {

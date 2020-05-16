@@ -80,14 +80,20 @@
             <h1 id="workssubheader">WORK</h1>
         
     </div>
+    
+
 
     <div class="container" id="works">
-        <a href="birdwatching.html"><p class="workslink">bird in the place where you live</p></a>
-        <a href="bikeroute.html"><p class="workslink">sea to cascades bike race</p></a>
-        <a href="TurkeyDay.html"><p class="workslink">growing thanksgiving crops</p></a>
-        <a href="seals.html"><p class="workslink">sable island seals</p></a>
+        <div class="row">
+            <div class="col-9">
+                <a href="birdwatching.html" id="birding"><p class="workslink">bird in the place where you live</p></a>
+                <a href="bikeroute.html" id="biking"><p class="workslink">sea to cascades bike race</p></a>
+                <a href="TurkeyDay.html" id="turkey"><p class="workslink">growing thanksgiving crops</p></a>
+                <a href="seals.html" id="seals"><p class="workslink">sable island seals</p></a>
 <!--        <img id="worksimg" src="img/greySeal2.jpg" alt="seal pic">-->
-    
+            </div>
+            <div class="col-3" id="hoverimg"></div>
+        </div> <!-- end of row container -->
     </div> <!-- end of works container -->
     
 <!--
@@ -146,7 +152,7 @@
     </div>
     </div>
 -->
-      
+    <div>  
     <header class="jumbotron my-4" id ="about" >
       <h1 class="display-5" id="aboutheader">About</h1>
       <p class="lead">I grew up in the Pacific Northwest, but now call a small university town in North Georgia home. I spend most of my professional time making maps and wrangling data. The rest of my time is currently occupied with graduate studies in cartography, birdwatching, and kicking it with my dog. Want to nerd out on maps?  Feel free to send me an email or find me on twitter!</p>
@@ -170,6 +176,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+    
+  <!-- custom js -->
+  <script src="js/imgs.js"></script>
 
 </body>
 
