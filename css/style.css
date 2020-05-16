@@ -94,23 +94,16 @@ a:link {
     padding-bottom: 50vh;
 }
 
+/*
 #about {
     padding-bottom: 20vh;
-/*    background: url(birds4-03.svg);*/
+    background: url(birds4-03.svg);
     height: 50vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top left;
 }
-
-#contact {
-/*    padding-bottom: 20vh;*/
-/*    background: url(birds4-03.svg);*/
-/*  height: 50vh;*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top left;
-}
+*/
 
 #aboutheader {
     font-family: 'Rubik', sans-serif;
