@@ -9,7 +9,7 @@ body {
 }
 
 #subtitle {
-    color: white;
+    color: #684e5f;
     font-size: 1.7em;
     font-family: 'Rubik', sans-serif;
 }
@@ -37,10 +37,18 @@ body {
 }
 
 #hoverimg{
-  background-image: url("birds4-03.svg");
+  background-image: url("squiggles.svg");
   background-repeat: no-repeat;
 /*  background-color: #cccccc;*/
   background-size: contain;
+}
+
+#contact{
+  background-image: url("dog-05.svg");
+  background-repeat: no-repeat;
+/*  background-size: contain;*/
+  background-position: right center;
+  background-origin: content-box;
 }
 
 .workslink {
