@@ -9,7 +9,8 @@ body {
 }
 
 #subtitle {
-    color: #684e5f;
+    color: #cb96a6;
+/*    color: #684e5f;*/
     font-size: 1.7em;
     font-family: 'Rubik', sans-serif;
 }
@@ -55,13 +56,24 @@ body {
     font-family: 'Rubik', sans-serif;
     color: white;
     font-size: 3.5vw;
-    
     text-shadow:
-
     -1px -1px 0 #000,  
      1px -1px 0 #000,
     -1px  1px 0 #000,
      1px  1px 0 #000;
+}
+
+@media only screen and (max-width=500px) {
+    .workslink {
+    font-family: 'Rubik', sans-serif;
+    color: blueviolet;
+    font-size: 3.5vw;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
 }
 
 .workslink:hover {
