@@ -9,7 +9,7 @@ let seals = document.getElementById("seals");
 
 //birding link img update
 birding.addEventListener("mouseover", () => {
-    hoverimg.style.backgroundImage = 'url("css/birdingThumbnail.jpg")';
+    hoverimg.style.backgroundImage = 'url("css/birdingThumbnail.JPG")';
 });
     
 birding.addEventListener("mouseleave", () => {
@@ -18,7 +18,7 @@ birding.addEventListener("mouseleave", () => {
 
 //biking link img update
 biking.addEventListener("mouseover", () => {
-    hoverimg.style.backgroundImage = 'url("css/bikeThumbnail.jpg")';
+    hoverimg.style.backgroundImage = 'url("css/bikeThumbnail.JPG")';
 });
     
 biking.addEventListener("mouseleave", () => {
@@ -27,7 +27,7 @@ biking.addEventListener("mouseleave", () => {
 
 //turkey link img update
 turkey.addEventListener("mouseover", () => {
-    hoverimg.style.backgroundImage = 'url("css/turkeyThumbnail.jpg")';
+    hoverimg.style.backgroundImage = 'url("css/turkeyThumbnail.JPG")';
 });
     
 turkey.addEventListener("mouseleave", () => {
@@ -36,7 +36,7 @@ turkey.addEventListener("mouseleave", () => {
 
 //seals link img update
 seals.addEventListener("mouseover", () => {
-    hoverimg.style.backgroundImage = 'url("css/sealTrack.jpg")';
+    hoverimg.style.backgroundImage = 'url("css/sealTrack.JPG")';
 });
     
 seals.addEventListener("mouseleave", () => {
