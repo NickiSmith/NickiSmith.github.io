@@ -14,7 +14,9 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Londrina+Outline&family=Londrina+Shadow&family=Zeyada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
     
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -22,13 +24,15 @@
   <!-- Custom style sheet -->
   <link href="css/style.css" rel="stylesheet">
     
+    
 </head>
 
+    
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" >
+    <div class="container-fluid" id="nav">
       <a class="navbar-brand" href="index.html">Nicki Smith | Cartography</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,7 +61,7 @@
     <!-- Page Content -->
 
   <div class="container-fluid" id="splashpage">
-      <img id="birdsplash" src="img/birds3-03.svg" alt="flock of birds flying">
+      <img id="birdsplash" src="css/birdsCircle.svg" alt="flock of birds flying">
 <!--      <div class="container" id="splash"><img id="birdsplash" src="css/birds.svg" alt="flock of birds flying"></div>-->
 <!--      <div class="container" id="birds"></div>-->
 
@@ -76,7 +80,7 @@
     
     <div class="container" id="workscontainer">
         
-            <h1 id="worksheader">SELECTED</h1>
+            <h1 id="worksheader">SELECT</h1>
             <h1 id="workssubheader">WORK</h1>
         
     </div>
@@ -96,73 +100,18 @@
         </div> <!-- end of row container -->
     </div> <!-- end of works container -->
     
-<!--
-    <div class="container">
-
-    <div class="row text-center">
-
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100 shadow my-5">
-            <a href="birdwatching.html" class="thumbnail"> 
-	           <img class = "card-img-top" src="assets/Thumbnail.PNG" alt="birdwatching infographic">
-            </a> 
-          <div class="card-body">
-            <h4 class="card-title">Bird in the Place Where You Live</h4>
-            <p class="card-text">Think birding isn't a popular pastime in cities? Think again.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100 shadow my-5">
-          <a href="bikeroute.html" class="thumbnail"> 
-	           <img class = "card-img-top" src="assets/bikerace_thumbnail-01.png" alt="bike race">
-            </a> 
-          <div class="card-body">
-            <h4 class="card-title">Sea to Cascades Bike Race</h4>
-            <p class="card-text">Mountain vistas, salty sea air, 21 days away from the office... and completed trashed quads up ahead.</p>
-          </div>
-        </div>
-      </div>
-        
-    <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100 shadow my-5">
-            <a href="TurkeyDay.html" class="thumbnail"> 
-	           <img class = "card-img-top" src="assets/TDthumbnail.JPG" alt="choropleth map of US">
-            </a> 
-          <div class="card-body">
-            <h4 class="card-title">Mashed potatoes, roasted brussels sprouts, pumpkin pie...</h4>
-            <p class="card-text">Where are Thanksgiving vegetables grown in the continental US?</p>
-          </div>
-        </div>
-      </div>
-
-    <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100 shadow my-5">
-            <a href="seals.html" class="thumbnail"> 
-	           <img class = "card-img-top" src="img/greySeal2.jpg" alt="picture of a seal">
-            </a> 
-          <div class="card-body">
-            <h4 class="card-title">Sable Island Seals</h4>
-            <p class="card-text">6 months of seal telemtry data comes to life in this team project created by myself and Laura Smith.</p>
-          </div>
-        </div>
-      </div>
-        
-    </div>
-    </div>
--->
     <div>  
-    <header class="jumbotron my-4" id ="about" >
-      <h1 class="display-5" id="aboutheader">About</h1>
-      <p class="lead">I spend most of my professional time making maps and wrangling data. The rest of my time is currently occupied with graduate studies in cartography, birdwatching, and kicking it with my dog.</p>
-    </header>
+    <div class="container-fluid" id ="about" >
+        <div class="graphic"></div>
+      <div class="center"><h1 class="display-5" id="aboutheader">About</h1>
+          <p class="lead" id="aboutText">Most of my professional time is spent making maps and wrangling data. I studied geography and GIS as an undergraduate and am currently occupied with graduate studies in cartography and GIS development. In my freetime, I can usually be found birdwatching and hanging out with my dog.</p></div>
+    </div>
  
-    <header class="jumbotron my-4"  id ="contact">
+    <div class="container-fluid"  id ="contact">
       <div id="dog"></div>
-      <h1 class="display-5" id="contactheader">Contact</h1>
-        <p class="lead">jnsmith22@wisc.edu | <a/ href = https://twitter.com/nickismithmaps>@nickismithmaps</a></p>
-    </header>
+      <div class="center"><h1 class="display-5" id="contactheader">Say Hey</h1>
+        <p class="lead" id="address">jnsmith22@wisc.edu | <a/ href = https://twitter.com/nickismithmaps>@nickismithmaps</a></p></div>
+    </div>
       
   </div>
 
@@ -178,7 +127,11 @@
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
     
+<!-- ajax/jquery   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
   <!-- custom js -->
+    <script src=”scripts.js”></script>
   <script src="js/imgs.js"></script>
 
 </body>
