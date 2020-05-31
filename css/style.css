@@ -1,7 +1,8 @@
 
 body {
-  padding-top: 56px;
-  font-family: 'Muli', sans-serif;
+    background: #fbff48;
+    padding-top: 56px;
+    font-family: 'Muli', sans-serif;
 /*    transition: 0.3s all;*/
 }
 
@@ -22,8 +23,8 @@ body {
 #splashpage {
     color: #ffde22;
 /*    background: #ffde22;*/
-    background: #f8ea49;    
-/*    background: #fbff48;*/
+/*    background: #f8ea49;    */
+    background: #fbff48;
     width: 100%;
     height: 100vh;
 }
@@ -48,12 +49,13 @@ body {
 }
 
 #contact{
-    background: #f8ea49;
+/*    background: #f8ea49;*/
+    background: #fbff48;
     background-image: url("dog.svg");
     background-repeat: no-repeat;
     background-size: 60vh;
     background-position: right center;
-    height: 110vh;
+    height: 130vh;
     line-height: 10vh;
     padding: 10vh;
 }
@@ -165,4 +167,17 @@ a:link {
 
 .center {
     padding-top: 30vh;
+}
+
+#nav{
+
+}
+
+#worksContainer {
+    background: white;
+}
+
+#footer{
+    background: #f36215;
+    padding: 1vh;
 }
