@@ -48,12 +48,11 @@ body {
 }
 
 #contact{
-  background: #f8ea49;
-  background-image: url("dogBlue-05.svg");
-  background-repeat: no-repeat;
-  background-size: 60vh;
-  background-position: right bottom;
-/*  background-origin: content-box;*/
+    background: #f8ea49;
+    background-image: url("dog.svg");
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-position: right center;
     height: 110vh;
     line-height: 10vh;
     padding: 10vh;
@@ -159,8 +158,9 @@ a:link {
 }
 
 #address{
-    font-size: 5vw;
+    font-size: 3.5vw;
     font-weight: 800;
+    max-width: 60vw;
 }
 
 .center {
