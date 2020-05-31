@@ -43,9 +43,11 @@ body {
 }
 
 #hoverimg{
-  background-image: url("squiggles.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
+/*  background-image: url("orangeCircle.svg");*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    
 }
 
 #contact{
@@ -180,4 +182,13 @@ a:link {
 #footer{
     background: #f36215;
     padding: 1vh;
+}
+
+
+#birdingIndex{
+    background-image: url("Artboard1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 1200px;
 }

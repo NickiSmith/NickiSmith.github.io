@@ -36,7 +36,7 @@ turkey.addEventListener("mouseleave", () => {
 
 //seals link img update
 seals.addEventListener("mouseover", () => {
-    hoverimg.style.backgroundImage = 'url("css/sealTrack.JPG")';
+    hoverimg.style.backgroundImage = 'url("css/sealThumbnail.JPG")';
 });
     
 seals.addEventListener("mouseleave", () => {
