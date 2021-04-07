@@ -1,0 +1,53 @@
+/*.myTextBG {*/
+/*    background: darkgray;*/
+/*    !*background: linear-gradient(to bottom, rgba(250,240,230,0.3) 0%, rgba(255,228,225, 0.7) 75%, #ffffff 100%)*!*/
+/*}*/
+
+.myFooter {
+    background: palegoldenrod;
+    /*background: linear-gradient(palegoldenrod, transparent);*/
+}
+
+.myAbout {
+    background: palegoldenrod;
+}
+
+.myDiv {
+    /*background-color: #ddd;*/
+    background-color: transparent;
+    color: black;
+    transition: 0.3s;
+}
+
+/*.mySub {*/
+/*    color: #212529;*/
+/*}*/
+
+/*.myDiv:hover {*/
+/*    background-color: palegoldenrod;*/
+/*    transform: scale(0.9);*/
+/*    !*color: white;*!*/
+/*}*/
+.textSemi{
+    color: rgb(0,0,0,0.5);
+}
+
+
+.myImg {
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.myImg:hover {
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+/*.myText {*/
+/*    transition: 0.3s;*/
+/*}*/
+
+/*.myText:hover {*/
+/*    transition: 0.3s;*/
+/*    transform: scale(1.1);*/
+/*}*/
