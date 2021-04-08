@@ -1,9 +1,61 @@
+
+.btn-info {
+    background: rgb(133, 159, 193, 0.7);
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+    font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.btn-info:hover {
+    background: rgb(133, 159, 193);
+}
+
+.btn-info:focus, .btn-info.focus {
+    background: rgb(133, 159, 193);
+}
+
 #chickenPin {
     padding: 2em;
 }
 
+.dateText {
+    color: rgb(0,0,0,0.5);
+}
+
+.dev-icons{
+    /*color: #859FC1;*/
+    color: rgb(0,0,0,0.3);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 #imgAttributions {
     font-size: x-small;
+}
+.modalSubheader {
+    color: rgb(0,0,0,0.8);
+}
+
+.modalText {
+    font-size: small;
+    color: rgb(0,0,0,0.5);
+}
+
+.modal-title {
+    font-family: 'Poiret One', cursive;
+
+}
+
+.myModalHeader {
+    border-bottom: 0.1rem solid rgb(238, 232, 170, 0.5);
+}
+
+.myModalTitle {
+    background: transparent;
+    margin: 0;
 }
 
 .myFooter {
@@ -13,6 +65,11 @@
 
 .myAbout {
     background: palegoldenrod;
+}
+
+.myBtn {
+    padding: 2em;
+    padding-bottom: 4em;
 }
 
 .myDiv {
@@ -37,6 +94,19 @@
     transform: scale(1);
 }
 
+.resumeSection {
+    margin-bottom: 2rem;
+    /*color: rgb(0,0,0,0.5);*/
+}
+
 #sayHey {
     font-family: 'Poiret One', cursive;
+}
+
+.smText {
+    font-size: medium;
+}
+
+#sql {
+    font: bolder;
 }

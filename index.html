@@ -20,6 +20,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/importedStyles.css" rel="stylesheet" />
         <link href="css/newStyle.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -62,9 +63,130 @@
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="" />
+                <div class="row">
+                    <div class="container myBtn"><button type="button" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl">Resume</button></div>
+                </div>
             </div>
         </section>
+
+        <!--   Resume modal     -->
+        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" id="resume">
+            <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Resume</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="jumbotron myModalTitle">
+                            <h1 class="modal-title text-center">Nicki Smith</h1>
+                            <p class="lead text-center">
+                                I am a Geographer & Cartographer able to leverage extensive poultry laboratory
+                                experience to explore interesting subject matter questions and practical
+                                geographic issues using maps and GIS analysis. In addition to my current focus on agriculture,
+                                I bring to each project an interdisciplinary educational background and strong technical skills.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <h4 class="myModalHeader">Experience</h4>
+                            </div>
+                        </div>
+                        <div class="row smText resumeSection">
+                            <div class="col-6">
+                                <p class="modalSubheader">Geospatial Coordinator</p>
+                                <p class="modalSubheader">GIS Senior Specialist</p>
+                                <p class="modalSubheader">Serology Senior Specialist</p>
+                            </div>
+                            <div class="col-6 text-right">
+                                <p class="dateText">2021-Current</p>
+                                <p class="dateText">2019-2021</p>
+                                <p class="dateText">2016-2019</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <h4 class="myModalHeader">Education</h4>
+                            </div>
+                        </div>
+                        <div class="row smText resumeSection">
+                            <div class="container">
+                                <p class="modalSubheader">University of Wisconsin-Madison</p>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p class="modalText">Master of Science in Cartography and GIS</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="dateText text-right">Spring 2021</p>
+                                    </div>
+                                </div>
+                                <p class="modalSubheader">Kennesaw State University</p>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p class="modalText">Bachelor of Arts in Geography and Certificate in GIS</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="dateText text-right">2018</p>
+                                    </div>
+                                </div>
+                                <p class="modalSubheader">Lanier Technical College</p>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p class="modalText">Associate of Applied Science in Clinical Laboratory Technology</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="dateText text-right">2013</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <h4 class="myModalHeader">Skills</h4>
+                            </div>
+                        </div>
+                        <div class="row smText resumeSection">
+                            <div class="container">
+                                <p class="modalSubheader">Programming Languages & Tools</p>
+                            </div>
+                            <div class="row">
+                                    <ul class="list">
+                                        <li class="list-inline-item dev-icons"><i class="fab fa-html5 fa-2x"></i></li>
+                                        <li class="list-inline-item dev-icons"><i class="fab fa-css3-alt fa-2x"></i></li>
+                                        <li class="list-inline-item dev-icons"><i class="fab fa-js-square fa-2x"></i></li>
+                                        <li class="list-inline-item dev-icons"><i class="fab fa-python fa-2x"></i></li>
+                                        <li class="list-inline-item dev-icons"><i class="fas fa-database fa-2x"></i> SQL</li>
+                                    </ul>
+                            </div>
+                            <div class="container">
+                                <p class="modalSubheader">Desktop Software</p>
+                            </div>
+                                <div class="container">
+                                    <p class="modalText">ArcGIS Pro, QGIS, Adobe Illustrator, Advanced Excel skills </p>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <h4 class="myModalHeader">Interests</h4>
+                            </div>
+                        </div>
+                        <div class="row smText resumeSection">
+                            <div class="container">
+                                <p class="modalText">Cartographic design, front-end development, visual communication, agriculture,
+                                and applying a geographic perspective. In my spare time, birdwatching and other outdoor activities keep
+                                    me connected.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container">
