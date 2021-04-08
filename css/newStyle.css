@@ -9,12 +9,8 @@
   border: 0;
 }
 
-.btn-info:hover {
-    background: rgb(133, 159, 193);
-}
-
-.btn-info:focus, .btn-info.focus {
-    background: rgb(133, 159, 193);
+.btn-info:hover, .btn-info:focus, .btn-info:active {
+    background: rgb(133, 159, 193); !important;
 }
 
 #chickenPin {
