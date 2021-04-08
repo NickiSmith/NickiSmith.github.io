@@ -2,6 +2,10 @@
     padding: 2em;
 }
 
+#imgAttributions {
+    font-size: x-small;
+}
+
 .myFooter {
     background: palegoldenrod;
     /*background: linear-gradient(palegoldenrod, transparent);*/
