@@ -49,6 +49,18 @@
 
 }
 
+.myIcon:hover {
+    transform: scale(1.2);
+}
+
+.myLink {
+    color: rgb(133, 159, 193, 0.7);
+}
+
+.myLink:hover {
+    color: rgb(133, 159, 193); !important;
+}
+
 .myModalHeader {
     border-bottom: 0.1rem solid rgb(238, 232, 170, 0.5);
 }
